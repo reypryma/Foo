@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foody"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:8:5-23:19
+15        android:allowBackup="true"
+15-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.2] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\b74af66cf8cc3576ab6b74422cc6eeac\core-1.3.2\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:fullBackupContent="true"
+18-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:10:9-41
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/AppTheme" >
+23-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:15:9-40
+24        <activity android:name="com.example.foody.MainActivity" >
+24-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:16:9-22:20
+24-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:16:19-47
+25            <intent-filter>
+25-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:18:17-69
+26-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:20:17-77
+28-->D:\AndroidProject\Foody-master\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->[androidx.room:room-runtime:2.2.6] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\5bbe3f8f42c7fa5c38bd1856ee15b00e\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+33            android:name="androidx.room.MultiInstanceInvalidationService"
+33-->[androidx.room:room-runtime:2.2.6] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\5bbe3f8f42c7fa5c38bd1856ee15b00e\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+34            android:directBootAware="true"
+34-->[androidx.room:room-runtime:2.2.6] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\5bbe3f8f42c7fa5c38bd1856ee15b00e\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+35            android:exported="false" />
+35-->[androidx.room:room-runtime:2.2.6] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\5bbe3f8f42c7fa5c38bd1856ee15b00e\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+36
+37        <provider
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c77b03e3a91ef31363e658e48df2cf4c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c77b03e3a91ef31363e658e48df2cf4c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+39            android:authorities="com.example.foody.lifecycle-process"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c77b03e3a91ef31363e658e48df2cf4c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+40            android:exported="false"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c77b03e3a91ef31363e658e48df2cf4c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+41            android:multiprocess="true" />
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\Android\gradle\gradle-6.1.1\caches\transforms-2\files-2.1\c77b03e3a91ef31363e658e48df2cf4c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+42    </application>
+43
+44</manifest>
